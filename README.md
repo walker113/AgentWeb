@@ -1,4 +1,6 @@
 
+### 如果需要支持h5拍照或相册，需要引入 api 'com.just.agentweb:filechooser:4.0.2'
+
 <div style="display: flex;flex-direction: row;justify-content: center" width="100%">
       <img src="./img/logo.png"></img>
 </div>
