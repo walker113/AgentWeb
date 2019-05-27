@@ -1,3 +1,12 @@
+### useragent
+AgentWeb
+设置useragent后，jsbridge不能交互
+
+查看之后，发现是设置的userAgent问题
+Pcidata/1.0.5 Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Mobile/14F89)
+设置的UserAgent少了Linux; 添加上就可以了
+Pcidata/1.0.5 Mozilla/5.0 (Linux; iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Mobile/14F89)
+
 
 ### 如果需要支持h5拍照或相册，需要引入 api 'com.just.agentweb:filechooser:4.0.2'
 
